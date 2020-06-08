@@ -1,0 +1,22 @@
+{
+    "name": "solwin/productreviewreminder",
+    "description": "Magento 2 Product Review Reminder",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\ProductReviewReminder\\": ""
+        }
+    }
+}
